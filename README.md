@@ -9,19 +9,19 @@ The Luhn algorithm, also known as the modulus 10 or mod 10 algorithm, is a simpl
 
 <b>Consider the example of an account number “79927398713“.</b>
 
-<i>Step 1 – Starting from the rightmost digit double the value of every second digit,</i>
+<i><b>Step 1</b> – Starting from the rightmost digit double the value of every second digit,</i>
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/gfgedit-300x60.png">
 
-<i>Step 2 – If doubling of a number results in a two digits number i.e greater than 9(e.g., 6 × 2 = 12), then add the digits of the product (e.g., 12: 1 + 2 = 3, 15: 1 + 5 = 6), to get a single digit number.</i>
+<i><b>Step 2</b> – If doubling of a number results in a two digits number i.e greater than 9(e.g., 6 × 2 = 12), then add the digits of the product (e.g., 12: 1 + 2 = 3, 15: 1 + 5 = 6), to get a single digit number.</i>
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/gfg3-3-300x81.png">
 
-<i>Step 3 – Now take the sum of all the digits.</i>
+<i><b>Step 3</b> – Now take the sum of all the digits.</i>
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/gfg1-1-300x81.png">
 
-<i>Step 4 – If the total modulo 10 is equal to 0 (if the total ends in zero) then the number is valid according to the Luhn formula; else it is not valid.</i>
+<i><b>Step 4</b> – If the total modulo 10 is equal to 0 (if the total ends in zero) then the number is valid according to the Luhn formula; else it is not valid.</i>
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/gfg2-2-300x101.png">
 
