@@ -5,7 +5,8 @@ The Luhn algorithm, also known as the modulus 10 or mod 10 algorithm, is a simpl
 
 # Steps involved in Luhn algorithm
 
-<i>Let’s understand the algorithm with an example:</i>
+<b>Let’s understand the algorithm with an example:</b>
+
 <b>Consider the example of an account number “79927398713“.</b>
 
 <i>Step 1 – Starting from the rightmost digit double the value of every second digit,</i>
