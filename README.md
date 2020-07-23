@@ -25,4 +25,4 @@ The Luhn algorithm, also known as the modulus 10 or mod 10 algorithm, is a simpl
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/gfg2-2-300x101.png">
 
-<strong>Since the sum is 70 which is a multiple of 10, therefore the account number is possibly valid.</strong>
+<i><strong>Since the sum is 70 which is a multiple of 10, therefore the account number is possibly valid.</strong></i>
